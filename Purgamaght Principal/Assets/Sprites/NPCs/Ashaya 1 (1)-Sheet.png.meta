@@ -1,0 +1,303 @@
+fileFormatVersion: 2
+guid: 3a48ff06a299c674ea9b950c31b3e2fb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ashaya 1 (1)-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -60}
+        - {x: 60, y: 0}
+        - {x: 0, y: 60}
+        - {x: -60, y: 0}
+      physicsShape:
+      - - {x: 0, y: -60}
+        - {x: 60, y: 0}
+        - {x: 0, y: 60}
+        - {x: -60, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e17c09c110549c46992f9d7337e9f51
+      internalID: -1095537701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ashaya 1 (1)-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -60}
+        - {x: 60, y: 0}
+        - {x: 0, y: 60}
+        - {x: -60, y: 0}
+      physicsShape:
+      - - {x: 0, y: -60}
+        - {x: 60, y: 0}
+        - {x: 0, y: 60}
+        - {x: -60, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4c01216a2d7f9459e03d992158ba24
+      internalID: 348903168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ashaya 1 (1)-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -60}
+        - {x: 60, y: 0}
+        - {x: 0, y: 60}
+        - {x: -60, y: 0}
+      physicsShape:
+      - - {x: 0, y: -60}
+        - {x: 60, y: 0}
+        - {x: 0, y: 60}
+        - {x: -60, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e387db0662f6b4d864d676628a3bdd
+      internalID: -925578617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ashaya 1 (1)-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -60}
+        - {x: 60, y: 0}
+        - {x: 0, y: 60}
+        - {x: -60, y: 0}
+      physicsShape:
+      - - {x: 0, y: -60}
+        - {x: 60, y: 0}
+        - {x: 0, y: 60}
+        - {x: -60, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778849f6b9aecbf4fb498164146bb8d0
+      internalID: 51713122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ashaya 1 (1)-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -60}
+        - {x: 60, y: 0}
+        - {x: 0, y: 60}
+        - {x: -60, y: 0}
+      physicsShape:
+      - - {x: 0, y: -60}
+        - {x: 60, y: 0}
+        - {x: 0, y: 60}
+        - {x: -60, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f5b508c01efd343b672b2f80abe2de
+      internalID: 1385724120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ashaya 1 (1)-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -60}
+        - {x: 60, y: 0}
+        - {x: 0, y: 60}
+        - {x: -60, y: 0}
+      physicsShape:
+      - - {x: 0, y: -60}
+        - {x: 60, y: 0}
+        - {x: 0, y: 60}
+        - {x: -60, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f0d8cf4c37c7749876aa553426d1d8
+      internalID: 1699590870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Ashaya 1 (1)-Sheet_0: -1095537701
+      Ashaya 1 (1)-Sheet_4: 1385724120
+      Ashaya 1 (1)-Sheet_3: 51713122
+      Ashaya 1 (1)-Sheet_1: 348903168
+      Ashaya 1 (1)-Sheet_2: -925578617
+      Ashaya 1 (1)-Sheet_5: 1699590870
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
