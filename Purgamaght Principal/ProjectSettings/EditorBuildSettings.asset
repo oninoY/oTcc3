@@ -15,6 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/PurgamightPrincipal 1.unity
     guid: e5548a1b56a3b174dbee8e2e157b5c52
   - enabled: 1
-    path: Assets/aPORA.unity
+    path: Assets/Scenes/aPORA.unity
     guid: 919d17a9d37ff9a4b9e8b1a895e6ff92
   m_configObjects: {}
