@@ -281,6 +281,7 @@ public class movPlayer : MonoBehaviour
             
             Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>());
         }
+        
     }
 
 }
