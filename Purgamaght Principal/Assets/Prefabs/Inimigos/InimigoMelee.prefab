@@ -73,7 +73,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acd99f9427c0edb45ac80e7395a53372, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidaAtual: 0
+  vidaAtual: 100
   vidaMaxima: 100
   drops: []
 --- !u!212 &3958287814359242758
@@ -116,7 +116,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: c633ebe40c4714746a0a65a90d236541, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
