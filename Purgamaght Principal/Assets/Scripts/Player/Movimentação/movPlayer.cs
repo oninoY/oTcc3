@@ -269,6 +269,13 @@ public class movPlayer : MonoBehaviour
     #region Volta pro menu
     public void BackMenu()
     {
+        GameObject player = GameObject.FindWithTag("Player");
+        
+        if (player != null)
+        {
+            // Destrua o GameObject do jogador antes de trocar a cena
+            Destroy(player);
+        }
         SceneManager.LoadScene("MenuPrincipal");
     }
     #endregion
@@ -281,7 +288,11 @@ public class movPlayer : MonoBehaviour
             
             Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>());
         }
-        
+        else         if (collision.gameObject.CompareTag("antichato") || collision.gameObject.CompareTag("saida"))
+        {
+            
+            Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>());
+        }
     }
 
 }

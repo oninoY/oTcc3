@@ -23,6 +23,7 @@ public class ItemManager : MonoBehaviour
         {
             if (otherItem.gameObject != selectedItem)
             {
+                saida.SetActive(true);
                 Destroy(otherItem.gameObject);
             }
         }
