@@ -288,11 +288,6 @@ public class movPlayer : MonoBehaviour
             
             Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>());
         }
-        else         if (collision.gameObject.CompareTag("antichato") || collision.gameObject.CompareTag("saida"))
-        {
-            
-            Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>());
-        }
     }
 
 }
