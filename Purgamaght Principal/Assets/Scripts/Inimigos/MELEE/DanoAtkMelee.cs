@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class DanoAtkMelee : MonoBehaviour
 {
+    [SerializeField] private int dano;
+    public vidaPlayer playerVida;
 
-[SerializeField] private int dano;
-public vidaPlayer playerVida;
-
-        private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player")
         {
             playerVida.TomarDano(dano);
         }

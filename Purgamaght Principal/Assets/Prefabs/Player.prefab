@@ -1709,7 +1709,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vidaAtual: 0
   vidaMaxima: 100
-  barraDeVida: {fileID: 0}
+  barraDeVida: {fileID: 4087636269935428074}
 --- !u!114 &7267601021457409513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2104,7 +2104,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -219, y: 133}
+  m_AnchoredPosition: {x: -672, y: 336}
   m_SizeDelta: {x: 375, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &6639857067110085256
@@ -2428,11 +2428,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8151802618709199232, guid: e96eb4c50c740f549aa612712c464275, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 12.456575
       objectReference: {fileID: 0}
     - target: {fileID: 8151802618709199232, guid: e96eb4c50c740f549aa612712c464275, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -4.782587
       objectReference: {fileID: 0}
     - target: {fileID: 8151802618709199232, guid: e96eb4c50c740f549aa612712c464275, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2468,11 +2468,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8151802618834621378, guid: e96eb4c50c740f549aa612712c464275, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -12.456575
       objectReference: {fileID: 0}
     - target: {fileID: 8151802618834621378, guid: e96eb4c50c740f549aa612712c464275, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 4.782587
       objectReference: {fileID: 0}
     - target: {fileID: 8151802618834621379, guid: e96eb4c50c740f549aa612712c464275, type: 3}
       propertyPath: m_Follow
