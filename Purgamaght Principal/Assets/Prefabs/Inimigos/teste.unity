@@ -281,7 +281,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7267601021457409506, guid: 963a50f49482f5446938dca9ece6ba8d, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7267601021457409506, guid: 963a50f49482f5446938dca9ece6ba8d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -359,6 +359,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1499514763227064265, guid: 2d48a484ca405504b9ba4c7b61097b33, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 1499514763227064265, guid: 2d48a484ca405504b9ba4c7b61097b33, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.4
+      objectReference: {fileID: 0}
     - target: {fileID: 6441911415671808419, guid: 2d48a484ca405504b9ba4c7b61097b33, type: 3}
       propertyPath: m_Name
       value: InimigoMelee

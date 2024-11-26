@@ -13,6 +13,7 @@ TagManager:
   - saida
   - importante
   - chegada
+  - parede
   layers:
   - Default
   - TransparentFX
