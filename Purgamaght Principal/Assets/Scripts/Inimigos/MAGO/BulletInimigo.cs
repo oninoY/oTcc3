@@ -4,38 +4,51 @@ using UnityEngine;
 
 public class BulletInimigo : Bullet
 {
-    // Sobrescreve o mÈtodo Awake da classe Bullet (chamado na inicializaÁ„o)
+    [Header("Bullet Properties")]
+    [SerializeField] private float speed = 10f; // Velocidade da bala
+    private int direction; // Dire√ß√£o da bala
+
+    // Sobrescreve o m√©todo Awake da classe Bullet (chamado na inicializa√ß√£o)
     protected override void Awake()
     {
-        base.Awake(); // Chama o mÈtodo Awake da classe base Bullet
+        base.Awake(); // Chama o m√©todo Awake da classe base Bullet
     }
 
-    // Sobrescreve o mÈtodo Start da classe Bullet (chamado no inÌcio)
+    // Sobrescreve o m√©todo Start da classe Bullet (chamado no in√≠cio)
     protected override void Start()
     {
-        base.Start(); // Chama o mÈtodo Start da classe base Bullet
+        base.Start(); // Chama o m√©todo Start da classe base Bullet
+        // Define a dire√ß√£o da bala com base na dire√ß√£o do inimigo
+        direction = transform.localScale.x > 0 ? 1 : -1; // Assume que a escala x determina a dire√ß√£o
     }
 
-    // Sobrescreve o mÈtodo FixedUpdate da classe Bullet (chamado em cada frame de fÌsica)
+    // Sobrescreve o m√©todo FixedUpdate da classe Bullet (chamado em cada frame de f√≠sica)
     protected override void FixedUpdate()
     {
-        base.FixedUpdate(); // Chama o mÈtodo FixedUpdate da classe base Bullet
+        base.FixedUpdate(); // Chama o m√©todo FixedUpdate da classe base Bullet
+        Move(); // Chama o m√©todo para mover a bala
     }
 
-    // Detecta colisıes com outros objetos que possuem Collider2D
+    // M√©todo para mover a bala
+    private void Move()
+    {
+        // Move a bala na dire√ß√£o especificada
+        transform.Translate(Vector2.right * speed * direction * Time.deltaTime);
+    }
+
+    // Detecta colis√µes com outros objetos que possuem Collider2D
     private void OnTriggerEnter2D(Collider2D collision)
     {
         // Verifica se a bala colidiu com o jogador
         if (collision.CompareTag("Player"))
         {
-            Explode(); // Chama o mÈtodo Explode para destruir a bala
+            Explode(); // Chama o m√©todo Explode para destruir a bala
         }
 
-        // Verifica se a bala colidiu com o ch„o (ou piso)
+        // Verifica se a bala colidiu com o ch√£o (ou piso)
         if (collision.CompareTag("Piso"))
         {
-            Explode(); // Chama o mÈtodo Explode para destruir a bala
+            Explode(); // Chama o m√©todo Explode para destruir a bala
         }
     }
 }
-
